@@ -16,7 +16,7 @@ module.exports = {
         path: `${__dirname}/blog`
       }
     },
-
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-omni-font-loader`,
       options: {
