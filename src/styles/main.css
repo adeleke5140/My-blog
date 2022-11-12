@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 *,
 ::before,
 ::after {
@@ -14,3 +14,9 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
 }
+/* 
+.hero.hero {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+} */

@@ -6,7 +6,9 @@
 }
 
 .heading {
-  font-size: 8vw;
+  font-size: 4vw;
+  color: rebeccapurple;
+  margin: 4rem 0 1rem;
 }
 
 .navLinks {
@@ -14,18 +16,28 @@
   list-style: none;
 }
 
-.navLink-item:first-child {
+/* .navlink-item:not(last-child) {
   padding-right: 2rem;
-}
+} */
 
 .navLink-item > a {
   text-decoration: none;
   color: #333;
+  display: inline-block;
+  margin-right: 1em;
 }
 
 a[aria-current="page"] {
-  border-bottom: 4px solid black;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid rebeccapurple;
+  border-bottom: 2px solid rebeccapurple;
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
+  font-weight: bold;
+}
+
+.siteTitle {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
 }
