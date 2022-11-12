@@ -8,7 +8,7 @@ const IndexPage = () => {
       <Layout pageTitle="Home Page">
         <StaticImage
           alt="a black and white pixelated face of a man "
-          src="https://pbs.twimg.com/profile_images/1543997404218793985/G_XvddcH_400x400.jpg"
+          src="../images/pfp.jpg"
         />
         <p>This is the home page.</p>
       </Layout>
