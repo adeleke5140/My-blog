@@ -1,3 +1,5 @@
-exports.onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: en })
+import React from "react"
+
+export const onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
+  setHtmlAttributes({ lang: "en" })
 }

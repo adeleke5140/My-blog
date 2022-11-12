@@ -1,0 +1,31 @@
+.container {
+  font-family: "DM Sans";
+  margin: auto;
+  max-width: 500px;
+  padding-top: 2rem;
+}
+
+.heading {
+  font-size: 8vw;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLink-item:first-child {
+  padding-right: 2rem;
+}
+
+.navLink-item > a {
+  text-decoration: none;
+  color: #333;
+}
+
+a[aria-current="page"] {
+  border-bottom: 4px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
