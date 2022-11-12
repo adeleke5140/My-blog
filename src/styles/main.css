@@ -14,9 +14,12 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
 }
-/* 
-.hero.hero {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-} */
+
+.blog {
+  margin-bottom: 2em;
+}
+
+.blog-date {
+  color: gray;
+  font-size: 0.8em;
+}
