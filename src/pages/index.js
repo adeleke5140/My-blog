@@ -7,13 +7,13 @@ import Seo from "../components/seo"
 const IndexPage = () => {
   return (
     <div>
-      <Layout pageTitle="Home Page">
-        <StaticImage
+      <Layout pageTitle="Home">
+        {/* <StaticImage
           alt="a black and white pixelated face of a man "
           src="../images/pfp.jpg"
           imgClassName="hero"
-        />
-        <p>This is the home page.</p>
+        /> */}
+        <p>Welcome 👋🏼</p>
       </Layout>
     </div>
   )

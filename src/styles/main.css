@@ -21,5 +21,10 @@ h1 {
 
 .blog-date {
   color: gray;
-  font-size: 0.8em;
+  font-size: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.blog-excerpt {
+  font-size: 0.8rem;
 }
