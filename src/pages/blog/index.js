@@ -7,7 +7,7 @@ const BlogPage = ({ data }) => {
   const blogs = data.allMdx.nodes
 
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="My Blog Posts.">
       <p style={{ marginBottom: "2em" }}>My cool posts will go in here.</p>
       {blogs.map((blog) => (
         <article className="blog">

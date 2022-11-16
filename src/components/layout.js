@@ -2,6 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
+import github from "../images/github.svg"
 
 export default function Layout({ pageTitle, children }) {
   const data = useStaticQuery(graphql`
@@ -33,6 +34,12 @@ export default function Layout({ pageTitle, children }) {
         <h1 className="heading">{pageTitle}</h1>
         {children}
       </main>
+      <footer className="footer">
+        <a href="https://github.com/adeleke5140">
+          <span>Check out my other stuff here</span>
+          <img src={github} alt="logo of github" style={{ height: "20px" }} />
+        </a>
+      </footer>
     </div>
   )
 }
